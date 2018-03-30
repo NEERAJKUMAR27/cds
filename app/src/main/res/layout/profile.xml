@@ -7,16 +7,215 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".MainActivity"
-    tools:showIn="@layout/profile_fragment">
+    tools:showIn="@layout/profile_fragment"
+   >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_shadow_start_color"
+        >
+        <android.support.v7.widget.CardView
+            android:id="@+id/addeventcardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardUseCompatPadding="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:background="@drawable/border">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin"
-        android:text="@string/large_text" />
+
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/name_layout"
+                android:paddingBottom="10dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_margin="10dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:text="Name:"
+                    android:textStyle="italic" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:id="@+id/name"
+                    android:layout_margin="10dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:text="Neeraj Kumar"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:id="@+id/phone_layout"
+                    android:paddingBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_margin="10dp"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:text="Phone no. :"
+                        android:textStyle="italic" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:id="@+id/phone"
+                        android:layout_margin="10dp"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:text="8987845465:"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:id="@+id/email_layout"
+                    android:paddingBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_margin="10dp"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:text="Email id. :"
+                        android:textStyle="italic" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:id="@+id/email"
+                        android:layout_margin="10dp"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:text="151210028@nitdelhi.ac.in"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:id="@+id/auth_layout"
+                    android:paddingBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_margin="10dp"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:text="Authenticated through :"
+                        android:textStyle="italic" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:id="@+id/auth"
+                        android:layout_margin="10dp"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:text="Google"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:id="@+id/upload_layout"
+                    android:paddingBottom="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:text="Id proof :"
+                        android:textStyle="italic" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/upload"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="20sp"
+                        android:text="Not Submitted"
+                        android:textStyle="italic" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:background="@color/colorPrimary"
+                        android:orientation="horizontal"
+                        >
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@null"
+                        android:text="Submit"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
 
 
 
+
+    </LinearLayout>
 
 
 </android.support.v4.widget.NestedScrollView>

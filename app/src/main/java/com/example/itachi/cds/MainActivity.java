@@ -15,6 +15,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.itachi.cds.add_crime.add_crime_fragment;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -59,7 +61,7 @@ public class MainActivity extends AppCompatActivity
                     }, 300);
 
                     fragmentManager.beginTransaction()
-                            .replace(R.id.content,add_crime_fragment.initalizeview(),"addcrime_fragment")
+                            .replace(R.id.content, add_crime_fragment.initalizeview(),"addcrime_fragment")
                             .commit();
                 }
             });

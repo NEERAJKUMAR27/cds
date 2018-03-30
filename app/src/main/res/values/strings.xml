@@ -108,5 +108,67 @@
     </string>
 
 
+    <string name="crime_prompt">Select</string>
+
+    <string-array name="crime_type">
+        <item>Motor Theft</item>
+        <item>Attempted Murder</item>
+        <item>Embezzlement</item>
+        <item>Mobile Theft</item>
+        <item>Robbery</item>
+        <item>Burglary</item>
+        <item>Cyber crime</item>
+        <item>Narcotics</item>
+        <item>All other offences</item>
+    </string-array>
+
+    <string name="age_group_prompt">Select</string>
+
+    <string-array name="age_group">
+        <item>Child</item>
+        <item>Teenage</item>
+        <item>Young</item>
+        <item>Adult</item>
+        <item>Middle Aged</item>
+        <item>Elderly</item>
+
+
+    </string-array>
+
+    <string name="relation_prompt">Select</string>
+
+    <string-array name="relation">
+        <item>Son</item>
+        <item>Grandson</item>
+        <item>Father</item>
+        <item>Grandfather</item>
+        <item>Father in law</item>
+        <item>Boyfriend</item>
+        <item>Brother</item>
+        <item>Uncle</item>
+        <item>Son in law</item>
+        <item>Friend</item>
+        <item>Neighbour</item>
+        <item>Cousin</item>
+        <item>Daughter</item>
+        <item>Mother</item>
+        <item>Mother in law</item>
+        <item>Aunty</item>
+        <item>Daughter in law</item>
+        <item>Sister</item>
+        <item>Girlfriend</item>
+        <item>Grandmother</item>
+        <item>Granddaughter</item>
+    </string-array>
+
+
+    <string name="gender_prompt">Select</string>
+
+    <string-array name="gender_type">
+        <item>M</item>
+        <item>F</item>
+    </string-array>
+
+
 
 </resources>
