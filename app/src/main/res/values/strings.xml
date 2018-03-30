@@ -6,12 +6,12 @@
 
 
     <!--facebook-->
-    <string name="facebook_app_id">162271747808021</string>
-    <string name="fb_login_protocol_scheme">fb162271747808021</string>
+    <string name="facebook_app_id">2031523027114053</string>
+    <string name="fb_login_protocol_scheme">fb2031523027114053</string>
 
     <!--twitter-->
-    <string name="com.twitter.sdk.android.CONSUMER_KEY">xXcujNTHI6pX2J2Lk5uy8Jzdj</string>
-    <string name="com.twitter.sdk.android.CONSUMER_SECRET">BFagA1TBszkYtSjtgUe3ZYVEfYKiFM45L0A2CGobU96hmaru2f</string>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">ufirvkBQksdkgZjFux3L12ATU</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">8hiULSBTXEPMrWaeRBXZ0Qo9J5FQZ6Qva4t75BdeQENFxEFzcH</string>
 
 
 </resources>
