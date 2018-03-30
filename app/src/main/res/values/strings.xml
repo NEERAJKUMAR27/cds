@@ -3,4 +3,15 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+
+    <!--facebook-->
+    <string name="facebook_app_id">162271747808021</string>
+    <string name="fb_login_protocol_scheme">fb162271747808021</string>
+
+    <!--twitter-->
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">xXcujNTHI6pX2J2Lk5uy8Jzdj</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">BFagA1TBszkYtSjtgUe3ZYVEfYKiFM45L0A2CGobU96hmaru2f</string>
+
+
 </resources>
