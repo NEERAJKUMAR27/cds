@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+
+    <color name="colorPrimary">#db4437</color>
+    <color name="colorPrimaryDark">#b93221</color>
+
+    <!--<color name="colorPrimary">#FD3259</color>-->
+    <!--<color name="colorPrimaryDark">#FD3259</color>-->
     <color name="colorAccent">#FF4081</color>
-
-
-
 
     <color name="color1">#FD3259</color>
     <color name="color2">#9C27B0</color>
@@ -130,6 +131,7 @@
     <color name="ak_inputText">#7d97ad</color>
     <color name="ak_statusBar">#00c5a5</color>
     <color name="ak_icon">#09d4b6</color>
+
 
 
 
